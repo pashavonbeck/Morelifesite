@@ -1412,3 +1412,12 @@ footer div { flex-wrap: wrap; }
 .terms-table table{border-collapse:collapse;width:100%;font-size:.92rem}
 .terms-table th,.terms-table td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
 .terms-table th{background:rgba(0,0,0,.04);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase}
+
+/* ---- phone fit: nothing may be wider than the screen ---- */
+html, body { max-width: 100%; overflow-x: clip; }
+main { overflow-x: clip; }
+h1, h2, h3 { max-width: 100%; overflow-wrap: anywhere; }
+@media (max-width: 760px) {
+  .trip-detail-hero h1 { font-size: clamp(2.3rem, 9.2vw, 4.2rem) !important; line-height: 1.02; }
+  .trip-detail-hero > div { max-width: 100%; }
+}

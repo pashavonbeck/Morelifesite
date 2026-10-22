@@ -1,0 +1,7 @@
+// "Let’s ride" snowboard — used as a button under the home Japan card. Cream lettering on a Logo Brown board so it
+// stays readable over the photo.
+export function SnowboardStamp() {
+  return (
+    <svg className="board-stamp" viewBox="0 0 400 112" aria-hidden="true" dangerouslySetInnerHTML={{ __html: `<path d="M50,14 Q200,26 350,14 C392,14 392,96 350,96 Q200,84 50,96 C8,96 8,14 50,14 Z" transform="translate(5 7)" fill="#24140F" opacity=".4"/><path d="M50,14 Q200,26 350,14 C392,14 392,96 350,96 Q200,84 50,96 C8,96 8,14 50,14 Z" fill="#58341A" stroke="#F6F0E2" stroke-width="5" stroke-linejoin="round"/><path d="M58,23 Q200,34 342,23" fill="none" stroke="#A87958" stroke-width="2.5" stroke-dasharray="7 6"/><path d="M58,87 Q200,76 342,87" fill="none" stroke="#A87958" stroke-width="2.5" stroke-dasharray="7 6"/><g transform="translate(66 56) rotate(14)"><rect x="-13" y="-25" width="26" height="50" rx="8" fill="#A87958" stroke="#F6F0E2" stroke-width="2.5"/><rect x="-16" y="-6" width="32" height="12" rx="6" fill="#F6F0E2"/></g><g transform="translate(334 56) rotate(-14)"><rect x="-13" y="-25" width="26" height="50" rx="8" fill="#A87958" stroke="#F6F0E2" stroke-width="2.5"/><rect x="-16" y="-6" width="32" height="12" rx="6" fill="#F6F0E2"/></g><text x="200" y="66" text-anchor="middle" font-size="30" font-weight="600" fill="#F6F0E2" textLength="200" lengthAdjust="spacing" style="font-family:var(--font-body)">LET’S RIDE</text>` }} />
+  );
+}

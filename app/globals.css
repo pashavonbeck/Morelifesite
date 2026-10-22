@@ -1427,3 +1427,8 @@ h1, h2, h3 { max-width: 100%; overflow-wrap: anywhere; }
 @media (max-width: 760px) { .page-hero.compact { padding: 128px 6vw 20px !important; } }
 .page-hero.compact h1 { font-size: clamp(2.4rem, 6vw, 4rem) !important; line-height: 1.02; }
 @media (max-width: 760px) { .page-hero.compact h1 { font-size: clamp(1.9rem, 8vw, 2.6rem) !important; } }
+
+/* ---- home: close the gap between the boarding pass and the text under it ---- */
+.pass-bare > .bp { margin-bottom: 22px !important; }
+.pass-bare > .bp + .pass-body-line, .pass-bare > .pass-body-line:first-of-type { margin-top: 0 !important; }
+.pass-bare > .pass-body-line + .pass-body-line { margin-top: 12px !important; }

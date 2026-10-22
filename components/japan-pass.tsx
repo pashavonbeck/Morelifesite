@@ -28,7 +28,7 @@ export function JapanPass({
                     <b>Someday</b>
                   </div>
                   <span className="bp-plane" aria-hidden>
-                    ✈\uFE0E
+                    ✈&#xFE0E;
                   </span>
                   <div>
                     <small>To</small>

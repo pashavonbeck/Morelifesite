@@ -1432,3 +1432,23 @@ h1, h2, h3 { max-width: 100%; overflow-wrap: anywhere; }
 .pass-bare > .bp { margin-bottom: 22px !important; }
 .pass-bare > .bp + .pass-body-line, .pass-bare > .pass-body-line:first-of-type { margin-top: 0 !important; }
 .pass-bare > .pass-body-line + .pass-body-line { margin-top: 12px !important; }
+
+/* ---- contact: no big gap before the footer, email on one line ---- */
+.contact-hero { min-height: 0 !important; padding-bottom: 28px !important; }
+.contact-email { word-break: normal !important; white-space: nowrap; font-size: clamp(.78rem, 4.2vw, 1.05rem); }
+.contact-card { padding-left: 22px; padding-right: 22px; }
+footer { padding-top: 40px; }
+
+/* ---- boarding pass must fit a phone ---- */
+.bp { max-width: 100%; }
+.bp-main, .bp-route > div { min-width: 0; }
+@media (max-width: 520px) {
+  .bp { grid-template-columns: 1fr 70px; }
+  .bp-main { padding: 16px 14px; }
+  .bp-stub { padding: 16px 8px; }
+  .bp-stub small { font-size: .5rem; letter-spacing: .08em; }
+  .bp-head { font-size: .6rem; }
+  .bp-route { gap: 8px; }
+  .bp b { font-size: .85rem; }
+  .bp-dest { font-size: 1.3rem !important; }
+}

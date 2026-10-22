@@ -1,11 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { site, sideMenuLinks } from "@/content/site";
 
 export function HeaderMenu() {
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
 
   // Close on Escape, and lock page scroll while the panel is open.
   useEffect(() => {
@@ -32,7 +35,7 @@ export function HeaderMenu() {
         <i />
       </button>
 
-      {open && (
+      {open && mounted && createPortal(
         <div className="site-sheet-overlay" onClick={() => setOpen(false)}>
           <div
             className="site-sheet"
@@ -62,7 +65,8 @@ export function HeaderMenu() {
               <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   );

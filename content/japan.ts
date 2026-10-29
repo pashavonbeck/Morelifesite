@@ -10,7 +10,7 @@ export const japanTiers = [
     place: "Nagano region",
     location: "Beginner \u2022 Nagano region",
     dates: "28 January \u2013 4 February 2027",
-    price: "Early bird $2,890 AUD until 20 Nov",
+    price: "Early bird $2,790 AUD until 20 Nov",
     teaser:
       "Never skied or snowboarded before? Start here. A week designed for first-timers to learn the basics, build confidence and experience Japan\u2019s famous powder together.",
   },

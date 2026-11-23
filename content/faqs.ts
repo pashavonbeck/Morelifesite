@@ -9,7 +9,7 @@ export const faqs: [string, string][] = [
   ["Will I share a room?", "Yes. Our camps are shared dorm stays, which is part of how the crew bonds. It's social and simple, not a luxury resort. If you have a genuine need for a private room, get in touch and we'll see what's possible."],
   ["Are flights included?", "No. International flights are booked by you. We'll share clear arrival details so you know exactly when and where to land."],
   ["Do I need travel insurance?", "Yes. You'll need comprehensive travel insurance that covers the destination and the activities in your experience."],
-  ["How much does it cost?", "Introduction to JAPOW is $2,790 AUD per person and Chase the Pow is $3,050 AUD per person with early bird pricing, based on a shared room. Early bird pricing ends on 20 November and prices increase on 21 November, so pay your deposit by 20 November to lock in the early bird price."],
+  ["How much does it cost?", "Introduction to JAPOW is $2,990 AUD per person and Chase the Pow is $3,250 AUD per person, based on a shared room."],
   ["What happens if there's no snow?", "Snowfall, visibility and lift operations can change quickly, so the itinerary may move around depending on weather, mountain conditions, safety and what works for the group. Snow conditions are outside our control, so More Life Collective can't be held responsible for them. Some costs, such as ski lift passes, may be non-refundable once booked. Full details are in our Booking Terms & Cancellation Policy."],
   ["How does booking work?", "Hit \"Register interest\" and fill in the short form. It's free and doesn't commit you to anything. We'll email you the trip details and a link to reserve your place with a deposit. Your spot is locked in once we confirm departure."],
 ];

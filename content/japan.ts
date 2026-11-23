@@ -10,7 +10,7 @@ export const japanTiers = [
     place: "Nagano region",
     location: "Beginner \u2022 Nagano region",
     dates: "28 January \u2013 4 February 2027",
-    price: "Early bird $2,790 AUD until 20 Nov",
+    price: "$2,990 AUD per person",
     teaser:
       "Never skied or snowboarded before? Start here. A week designed for first-timers to learn the basics, build confidence and experience Japan\u2019s famous powder together.",
   },
@@ -22,7 +22,7 @@ export const japanTiers = [
     place: "Hokkaido",
     location: "Intermediate & Beyond \u2022 Hokkaido",
     dates: "6 \u2013 13 February 2027",
-    price: "Early bird $3,050 AUD until 20 Nov",
+    price: "$3,250 AUD per person",
     teaser:
       "Fresh morning tracks, deep snow, and epic tree runs. Built for confident riders ready to experience the Japanese powder they\u2019ve been dreaming about.",
   },

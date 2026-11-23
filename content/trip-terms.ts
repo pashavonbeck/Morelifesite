@@ -60,7 +60,7 @@ export const terms = {
     "before": {
       "h": "Please read before securing your place",
       "ul": [
-        "Early bird price: $2,790 AUD per person (Chase the Pow: $3,050 AUD) until 20 November. Prices increase on 21 November. Prices are per person in shared accommodation.",
+        "Price: $2,990 AUD per person (Chase the Pow: $3,250 AUD). Prices are per person in shared accommodation.",
         "The final property and exact location are confirmed before bookings open.",
         "Groups are small, around 5\u201310 guests, and spots are limited.",
         "This is a shared snow camp, not a luxury or private-room holiday.",
@@ -109,7 +109,7 @@ export const terms = {
     "before": {
       "h": "Please read before securing your place",
       "ul": [
-        "Early bird price: $2,790 AUD per person (Chase the Pow: $3,050 AUD) until 20 November. Prices increase on 21 November. Prices are per person in shared accommodation.",
+        "Price: $2,990 AUD per person (Chase the Pow: $3,250 AUD). Prices are per person in shared accommodation.",
         "The final property and exact location are confirmed before bookings open.",
         "Groups are small, around 5\u201310 guests, and spots are limited.",
         "This is a shared snow camp, not a luxury or private-room holiday.",
@@ -238,7 +238,7 @@ export const finerDetails: Record<"intro" | "chase", FinerSection[]> = {
       "h": "Booking, payments & cancellations",
       "parts": [
         {
-                "p": "Register your interest—it’s free, with no commitment. We’ll email you the trip details and an early-bird deposit access link to reserve your place."
+                "p": "Register your interest—it’s free, with no commitment. We’ll email you the trip details and a deposit access link to reserve your place."
         },
         {
                 "p": "A 10% deposit secures your place and counts towards the total price."
@@ -263,8 +263,7 @@ export const pricing: Record<"intro" | "chase", Block[]> = {
   "intro": [
     {
       "ul": [
-        "Early bird price: $2,790 AUD per person",
-        "Early bird pricing ends 20 November. Prices increase on 21 November.",
+        "Price: $2,990 AUD per person",
         "Prices are per person in a shared room.",
         "Limited spots. Crews are 5–9 guests plus your host, so places go quickly."
       ]
@@ -273,8 +272,7 @@ export const pricing: Record<"intro" | "chase", Block[]> = {
   "chase": [
     {
       "ul": [
-        "Early bird price: $3,050 AUD per person",
-        "Early bird pricing ends 20 November. Prices increase on 21 November.",
+        "Price: $3,250 AUD per person",
         "Prices are per person in a shared room and include the guided backcountry day.",
         "Limited spots. Crews are 5–9 guests plus your host, so places go quickly."
       ]

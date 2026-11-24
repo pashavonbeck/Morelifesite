@@ -62,7 +62,7 @@ export const terms: { n: string; title: string; blocks: TermsBlock[] }[] = [
         "p": "Each trip requires a minimum number of paying guests, as stated in its booking information, and secured travel arrangements before departure can be confirmed."
       },
       {
-        "p": "We will confirm each departure as soon as these requirements are met, and no later than 45 days before departure, on the dates below:"
+        "p": "We will confirm each departure as soon as these requirements are met, and no later than the dates below:"
       },
       {
         "table": [
@@ -73,12 +73,12 @@ export const terms: { n: string; title: string; blocks: TermsBlock[] }[] = [
           ],
           [
             "28 January 2027 — Beginner trip",
-            "14 December 2026",
+            "20 December 2026",
             "29 December 2026"
           ],
           [
             "6 February 2027 — Intermediate trip",
-            "23 December 2026",
+            "20 December 2026",
             "7 January 2027"
           ]
         ]

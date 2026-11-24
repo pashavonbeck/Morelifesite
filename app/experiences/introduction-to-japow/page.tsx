@@ -21,7 +21,8 @@ export const metadata: Metadata = {
   title: "Introduction to JAPOW | Learn to ski or snowboard in Japan",
   description:
     "Learn to ski or snowboard in Japan with two lessons, a small crew and a host. Introduction to JAPOW, 28 Jan – 4 Feb 2027. Solo travellers welcome.",
-  openGraph: { title: "Introduction to JAPOW | Learn to ski or snowboard in Japan", description: "Learn to ski or snowboard in Japan with two lessons, a small crew and a host. Introduction to JAPOW, 28 Jan – 4 Feb 2027. Solo travellers welcome." },
+  openGraph: { title: "Introduction to JAPOW | Learn to ski or snowboard in Japan", description: "Learn to ski or snowboard in Japan with two lessons, a small crew and a host. Introduction to JAPOW, 28 Jan – 4 Feb 2027. Solo travellers welcome.", images: [{ url: "/og/intro.jpg", width: 1200, height: 630, alt: "Introduction to JAPOW, learn to ski or snowboard in Japan" }] },
+  twitter: { card: "summary_large_image", images: ["/og/intro.jpg"] },
 };
 
 export default function Page() {

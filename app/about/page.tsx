@@ -15,8 +15,9 @@ export const metadata: Metadata = {
     title: "Our story | More Life Collective",
     description:
       "Why More Life Collective exists: adventure-led group travel for people who want more from life.",
-    images: ["/images/pashy-banner.jpg"],
+    images: [{ url: "/og/about.jpg", width: 1200, height: 630, alt: "Pasha, founder of More Life Collective" }],
   },
+  twitter: { card: "summary_large_image", images: ["/og/about.jpg"] },
 };
 
 const bannerPhotos = [

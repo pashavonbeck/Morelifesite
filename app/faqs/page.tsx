@@ -7,7 +7,8 @@ export const metadata: Metadata = {
   title: "FAQs | More Life Collective",
   description:
     "Answers about More Life Collective trips: coming solo, crew size, gear, rooms, flights, pricing, booking and what happens if there's no snow.",
-  openGraph: { title: "FAQs | More Life Collective", description: "Answers about More Life Collective trips: coming solo, crew size, gear, rooms, flights, pricing, booking and what happens if there's no snow." },
+  openGraph: { title: "FAQs | More Life Collective", description: "Answers about More Life Collective trips: coming solo, crew size, gear, rooms, flights, pricing, booking and what happens if there's no snow.", images: [{ url: "/og/default.jpg", width: 1200, height: 630, alt: "More Life Collective" }] },
+  twitter: { card: "summary_large_image", images: ["/og/default.jpg"] },
 };
 
 export default function Page() {

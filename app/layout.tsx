@@ -34,9 +34,9 @@ export const metadata: Metadata = {
     title: "More Life Collective | For those who want more from life",
     description:
       "Adventure-led group trips for people who want more from life. Small crews, Japan snow trips in 2027, solo travellers welcome.",
-    images: [{ url: "/images/intro-hero.jpg" }],
+    images: [{ url: "/og/home.jpg", width: 1200, height: 630, alt: "More Life Collective adventure group trips" }],
   },
-  twitter: { card: "summary_large_image" },
+  twitter: { card: "summary_large_image", images: ["/og/home.jpg"] },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

@@ -19,7 +19,8 @@ export const metadata: Metadata = {
   title: "Chase the Pow | Hokkaido powder trip, Japan",
   description:
     "Five days chasing deep powder in Hokkaido with a small crew and a guided backcountry day. 6 – 13 Feb 2027, for intermediate+ riders.",
-  openGraph: { title: "Chase the Pow | Hokkaido powder trip, Japan", description: "Five days chasing deep powder in Hokkaido with a small crew and a guided backcountry day. 6 – 13 Feb 2027, for intermediate+ riders." },
+  openGraph: { title: "Chase the Pow | Hokkaido powder trip, Japan", description: "Five days chasing deep powder in Hokkaido with a small crew and a guided backcountry day. 6 – 13 Feb 2027, for intermediate+ riders.", images: [{ url: "/og/chase.jpg", width: 1200, height: 630, alt: "Chase the Pow, Hokkaido powder trip" }] },
+  twitter: { card: "summary_large_image", images: ["/og/chase.jpg"] },
 };
 
 export default function Page() {

@@ -7,7 +7,8 @@ export const metadata: Metadata = {
   title: "Contact | More Life Collective",
   description:
     "Questions about a trip? Get in touch with the More Life Collective team.",
-  openGraph: { title: "Contact | More Life Collective", description: "Questions about a trip? Get in touch with the More Life Collective team." },
+  openGraph: { title: "Contact | More Life Collective", description: "Questions about a trip? Get in touch with the More Life Collective team.", images: [{ url: "/og/default.jpg", width: 1200, height: 630, alt: "More Life Collective" }] },
+  twitter: { card: "summary_large_image", images: ["/og/default.jpg"] },
 };
 
 export default function Page() {

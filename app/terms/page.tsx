@@ -8,7 +8,8 @@ export const metadata: Metadata = {
   title: "Terms & Conditions | More Life Collective",
   description:
     "Booking terms and cancellation policy for More Life Collective experiences.",
-  openGraph: { title: "Terms & Conditions | More Life Collective", description: "Booking terms and cancellation policy for More Life Collective experiences." },
+  openGraph: { title: "Terms & Conditions | More Life Collective", description: "Booking terms and cancellation policy for More Life Collective experiences.", images: [{ url: "/og/default.jpg", width: 1200, height: 630, alt: "More Life Collective" }] },
+  twitter: { card: "summary_large_image", images: ["/og/default.jpg"] },
 };
 
 // Swap the [email address] placeholder for the real contact email.
